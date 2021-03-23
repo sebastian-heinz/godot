@@ -417,7 +417,7 @@ Error Expression::_get_token(Token &r_token) {
 								return OK;
 							}
 						}
-						
+
 						if (Variant::has_utility_function(id)) {
 							r_token.type = TK_BUILTIN_FUNC;
 							r_token.value = id;
